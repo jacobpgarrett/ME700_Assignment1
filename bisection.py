@@ -32,7 +32,6 @@ def bisection(aval, bval, equation):
         slope = -1
     if (eqsolve(aval, equation) < 0) and (eqsolve(bval, equation) > 0):
         slope = 1
-    print(slope)
 
     # Bisection Method
     if slope == 1:
