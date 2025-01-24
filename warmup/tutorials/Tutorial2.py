@@ -1,12 +1,12 @@
-# This tutorial allows the user to input their own bounds and equation in the terminal
+# This tutorial demonstrates how to use the bisection method to solve a slightly more complicated equation
 from bisection import *
 
 # Set left bound as a and right as b
-aval = float(input("Enter the left bound: "))
-bval = float(input("Enter the right bound: "))
+aval = -1
+bval = 3
 
 # Declare the equation to be solved, for this example just y = x
-equation = input("Enter the equation to be solved in proper Python syntax: ")
+equation = "-3*x**3+7"
 
 # Call the bisection function
 cval = bisection(aval, bval, equation)

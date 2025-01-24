@@ -1,12 +1,12 @@
-# This tutorial demonstrates how to use the bisection method to solve a slightly more complicated equation
+# Simple User Tutorial
 from bisection import *
 
 # Set left bound as a and right as b
 aval = -1
-bval = 3
+bval = 2
 
 # Declare the equation to be solved, for this example just y = x
-equation = "-3*x**3+7"
+equation = "-x+1"
 
 # Call the bisection function
 cval = bisection(aval, bval, equation)
