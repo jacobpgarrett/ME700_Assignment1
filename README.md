@@ -12,6 +12,10 @@ The equation that is solved for in this example is the following:
 
 ![Problem Equation](https://github.com/user-attachments/assets/2df42bea-024b-4939-a4a9-dad2f1a3368e)
 
+## Generative AI Use
+
+In this assignment, the only forms of Generative AI that were used was vsCode Copilot, which assisted in completing code and ensuring correct Python syntax, and Google Gemini, which was used to look up specific Python functions and library implementation.
+
 ## Contributing
 Pull Requests are welcome
 
