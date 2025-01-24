@@ -14,7 +14,7 @@ The equation that is solved for in this example is the following:
 
 ## Generative AI Use
 
-In this assignment, the only forms of Generative AI that were used was vsCode Copilot, which assisted in completing code and ensuring correct Python syntax, and Google Gemini, which was used to look up specific Python functions and library implementation.
+In this assignment, the only forms of Generative AI that were used were vsCode Copilot, which assisted in completing code and ensuring correct Python syntax, and Google Gemini, which was a result when looking up specific Python functions and library implementation.
 
 ## Contributing
 Pull Requests are welcome
