@@ -1,6 +1,15 @@
 # ME 700 Assignment 1
 This assignment serves as an introduction to Python, Github, and good coding practices for mechanical computation.  This assignment is split into 3 parts: a warmup interacting with the bisection method, a first part that works with Newton's Method, and a second part incorporating an elastoplastic material model.
 
+## Warmup Mechanics Tutorial 1
+The problem shown in the first mechanics tutorial is taken from ME 700 Lecture 1.  The problem involves a mass supported by two horizontal springs, with a load being applied to the mass orthogonal to the orientation of the springs.  A schematic of the figure as shown in the class notes is shown below:
+
+![Problem 1 Figure](https://github.com/user-attachments/assets/2e835ce1-83ca-4815-b219-d9f37304a917)
+
+As we showed in class, the problem reduces to the equation shown below.  The equation is solved for values of l = 1 m, k = 1 N/m, and F = 0.25 N.  The value for w, the deflection in the vertical direction, is solved for using the bisection method and the values listed.
+
+![Problem 1 Equation](https://github.com/user-attachments/assets/edd7a2a1-2f87-4d9b-a24a-17399df4e328)
+
 ## Warmup Mechanics Tutorial 2
 The problem shown in the second tutorial for the assignment warmup is adapted from problem 5.51 in Fundamentals of Fluid Dynamics by Munson, Young, & Okisshi 8th Edition.  The version used for the tutorial is as follows:
 
