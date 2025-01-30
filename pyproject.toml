@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build.meta"
+
+[project]
+name="warmup"
+version="0.0.0"
+authors = [
+    {name="Jacob Garrett", email="jpg2002@bu.edu" },
+]
+description = "ME700_Assignment1 workflow"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "matplotlib==3.9.2",
+    "numpy==1.23.2",
+    "pytest==7.1.2",
+    "pytest-cov==3.0.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jacobpgarrett/ME700_Assignment1"
+
+
+
