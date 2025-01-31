@@ -1,6 +1,42 @@
 # ME 700 Assignment 1
 This assignment serves as an introduction to Python, Github, and good coding practices for mechanical computation.  This assignment is split into 3 parts: a warmup interacting with the bisection method, a first part that works with Newton's Method, and a second part incorporating an elastoplastic material model.
 
+## Setup
+To install this package, begin by activating miniconda
+
+```bash
+module load miniconda
+```
+
+Then, set up a mamba environment
+```bash
+mamba create --name bisection-env python=3.12
+```
+
+And then activate said environment:
+```bash
+mamba activate bisection-env
+```
+
+Double-check that the correct version of Python is installed
+```bash
+python --version
+```
+
+Ensure that pip is using the most up-to-date version of setuptools:
+```bash
+pip install --upgrade pip setuptools wheel
+```
+
+Then, navigate to the correct directory (warmup, Part 1, Part 2)
+
+## Using warmup tutorials
+To load each tutorial, type:
+```bash
+python #(Name of Tutorial)
+```
+Fill in the name of tutorial with one of the five, either Tutorial1.py or Tutorial2.py for simple examples of the bisection method, Tutorial3.py for an example where you can input different values for the bisection to occur, and Tutorial_Mech1.py or Tutorial_Mech2.py for examples derived from mechanics problems.
+
 ## Warmup Mechanics Tutorial 1
 The problem shown in the first mechanics tutorial is taken from ME 700 Lecture 1.  The problem involves a mass supported by two horizontal springs, with a load being applied to the mass orthogonal to the orientation of the springs.  A schematic of the figure as shown in the class notes is shown below:
 
