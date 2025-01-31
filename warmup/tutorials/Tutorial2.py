@@ -1,5 +1,8 @@
 # This tutorial demonstrates how to use the bisection method to solve a slightly more complicated equation
-from bisection import *
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+from warmup.src.bisection import bisection
 
 # Set left bound as a and right as b
 aval = -1

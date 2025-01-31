@@ -1,4 +1,7 @@
-from bisection import *
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+from warmup.src.bisection import bisection
 
 # This tutorial is adapted from a fluid mechanics problem (see Readme file)
 
