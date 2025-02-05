@@ -1,6 +1,9 @@
 import numpy as np
 import sys
 import os
+from pathlib import Path
+import pytest
+import re
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 from warmup.src.bisection import bisection
 
