@@ -1,5 +1,6 @@
 # Libraries Included
 import math
+from pathlib import Path
 
 # Function to solve the equation
 def eqsolve(x, equation):
